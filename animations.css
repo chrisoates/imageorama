@@ -1,0 +1,57 @@
+// Filename: animations.css
+// Created April 20, 2011 by Chris Oates
+
+
+* {
+	margin: 0;
+    padding: 0;
+}
+
+body{
+	text-align:center;
+}
+
+div#container{
+	margin:50px auto;
+}
+
+div#main{
+	width:900px;
+	position:relative;
+}
+
+#main div{
+	width:200px;
+	height:200px;
+	overflow:hidden;
+	position:absolute;
+}
+
+#main div.r1{
+	top:0;
+}
+#main div.r2{
+	top:200px;
+}
+#main div.r3{
+	top:400px;
+}
+#main div.c1{
+	left:0;
+}
+#main div.c2{
+	left:200px;
+}
+#main div.c3{
+	left:400px;
+}
+
+img{
+	width:200px;
+}
+
+div.scale{
+	z-index:2;
+ 	-webkit-transform: scale(5.0, 5.0);
+	-webkit-transition:-webkit-transform 1.0s ease-in-out;
+}
